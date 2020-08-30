@@ -1,1 +1,22 @@
+/* Teal color #4AAAA5 */
+/* Nav text color #979798 */
+/* Nav text darker color #737374 */
+/* Footer color #666666 */
+/* Footer text color #6B737B */
+
 /* formatting for About/Index Page Only */
+
+#about-me {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4AAAA5;
+    font-size: 3em;
+    font-weight: 600;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+#profile-pic {
+    float: left;
+    max-width: 15em;
+    margin-right: 1em;
+}
