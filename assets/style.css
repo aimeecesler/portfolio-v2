@@ -19,3 +19,7 @@ body {
     font-weight: 600;
     padding: .25em;
 }
+section {
+    background-color: white;
+    margin-top: 6em;
+}
