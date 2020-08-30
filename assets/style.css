@@ -11,3 +11,11 @@ body {
     background-position: top left;
     background-repeat: repeat-x repeat-y;
 }
+#name {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #4AAAA5;
+    font-size: 2em;
+    font-weight: 600;
+    padding: .25em;
+}
