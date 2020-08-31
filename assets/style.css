@@ -44,6 +44,10 @@ footer {
     margin-bottom: 0.5em;
 }
 
+.social-links {
+    color: #4AAAA5;
+}
+
 /* Formatting for Contact Page */
 .btn {
     background-color: #4aaaa5;
