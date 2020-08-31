@@ -12,11 +12,15 @@
     font-size: 3em;
     font-weight: 600;
     padding-top: 0.25em;
-    padding-bottom: 0.25em;
 }
 
 #profile-pic {
     float: left;
     max-width: 15em;
     margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    padding-bottom: 2em;
 }
