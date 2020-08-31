@@ -24,6 +24,13 @@ section {
     margin-top: 6em;
     margin-bottom: 6em;
 }
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4AAAA5;
+    font-size: 3em;
+    font-weight: 600;
+    padding-top: 0.25em;
+}
 footer {
     background-color: #666666;
     height: 4em;
