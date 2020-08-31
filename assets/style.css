@@ -17,19 +17,15 @@ body {
     background-color: #4AAAA5;
     font-size: 2em;
     font-weight: 600;
-    padding: .25em;
 }
 section {
     background-color: white;
-    margin-top: 6em;
-    margin-bottom: 6em;
 }
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #4AAAA5;
     font-size: 3em;
     font-weight: 600;
-    padding-top: 0.25em;
 }
 footer {
     background-color: #666666;
@@ -38,4 +34,33 @@ footer {
     border-top-color: #4AAAA5;
     border-top-style: solid;
     color: #6B737B;
+}
+
+/* Formatting for About/Index Page */
+#profile-pic {
+    float: left;
+    max-width: 15em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+/* Formatting for Contact Page */
+.btn {
+    background-color: #4aaaa5;
+    border-color: #4aaaa5;
+    border-radius: 0;
+    padding: 1em 2em 1em 2em; 
+    margin-bottom: 2em;
+}
+.btn:hover {
+    color: #4aaaa5;
+    background-color: white;
+}
+
+/* Formatting for Portfolio Page */
+.portfolio-image {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
 }
