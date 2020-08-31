@@ -51,48 +51,56 @@
       <div class="row">
         <section class="col-md-9 bg-white mt-5 mb-5 ml-4 pt-3 pb-3">
           <!-- header within box -->
-          <header class="col-md-12">
-            <h1>Contact</h1>
-          </header>
+          <div class="row">
+            <header class="col-md-12">
+              <h1>Contact</h1>
+            </header>
+          </div> <!--closing div for header row-->
           <!-- horizontal line break -->
           <hr />
           <!-- start of form -->
-          <form>
-            <!-- name input on form -->
-            <div class="form-group">
-              <label for="name">Name</label>
-              <input
-                type="text"
-                class="form-control"
-                id="name"
-                placeholder="Name"
-              />
-            </div>
-            <!-- email input on form -->
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="Email"
-              />
-            </div>
-            <!-- message input on form -->
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea
-                class="form-control"
-                id="message"
-                rows="3"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <!-- submit button -->
-            <button type="button" class="btn btn-info pt-3 pr-4 pl-4 pb-3">Submit</button>
-          </form>
+          <div class="row">
+            <div class="col-md-12">
+              <form>
+                <!-- name input on form -->
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Name"
+                  />
+                </div> <!--closing div for name form group-->
+                <!-- email input on form -->
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="Email"
+                  />
+                </div> <!--closing div for email form group-->
+                <!-- message input on form -->
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="3"
+                    placeholder="Message"
+                  ></textarea>
+                </div> <!--closing div for message form group-->
+                <!-- submit button -->
+                <button type="button" class="btn btn-info pt-3 pr-4 pl-4 pb-3">
+                  Submit
+                </button>
+              </form>
+            </div> <!--closing div for form column designation-->
+          </div> <!--closing div for row containing the form-->
         </section>
-      </div>
+      </div> <!--closing div for column designation-->
     </main>
     <!-- footer -->
     <footer class="text-center pt-3 pb-3">
