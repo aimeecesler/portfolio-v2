@@ -6,14 +6,6 @@
 
 /* formatting for About/Index Page Only */
 
-#about-me {
-    font-family: 'Times New Roman', Times, serif;
-    color: #4AAAA5;
-    font-size: 3em;
-    font-weight: 600;
-    padding-top: 0.25em;
-}
-
 #profile-pic {
     float: left;
     max-width: 15em;
