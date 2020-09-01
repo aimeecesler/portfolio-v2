@@ -127,7 +127,7 @@ A huge thanks to our teaching staff, especially Jonathan and Leif, they make it 
 -----
 
 ## License
-Copyright (c) [2020] [Aimee Corbin Esler]
+Copyright &copy; [2020] [Aimee Corbin Esler]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
