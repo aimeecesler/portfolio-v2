@@ -1,46 +1,91 @@
 # Homework Assignment 2: My Portfolio
 This repository contains my first portfolio site, including About Me, Contact and Portfolio pages. My purpose for this project was to create a portfolio website matching the format of the provided examples while customizing it with my own personal information as well as creating a responsive layout.
 
+-----
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#Usage)
-* [######](#######)
+* [Creating the Website](#creating-the-website)
 * [ADA Compliance](#ada-compliance)
-* [What I Learned](#what-i-learned)
+* [HTML Validation](#html-validation)
 * [Minimum Requirements](#minimum-requirements)
 * [Credits](#credits)
 * [Badges](#badges)
 * [Links](#Links)
 * [License](#license)
 
+-----
+
 ## Installation
 1. Follow the GitHub Repository Link in the [Links](#Links) section below.
 1. Clone the repository using an SSH key.
 1. Open GitBash and use "git clone" to clone the repository.
 
+-----
+
 ## Usage
 Edit using VSCode after [installation](#installation). HTML and CSS files are provided.
 
-HTML
+#### HTML
 
-![HTML](####)
+<img src="./assets/indexhtml.png" alt="index html" style="width: 400px; height: 500px;">
 
-CSS
+<img src="./assets/contacthtml.png" alt="contact html" style="width: 400px; height: 500px;">
 
-![CSS](####)
+<img src="./assets/portfoliohtml.png" alt="portfolio html" style="width: 400px; height: 500px;">    
 
-## ######
+#### CSS
 
+<img src="./assets/allcss.png" alt="all css" style="width: 400px; height: 500px;">
+
+-----
+
+## Creating the Website
+
+During the process of creating this website, I tried to utilize the Bootstrap CSS as much as possible, only utilizing my own CSS sheet for specific custom colors and layouts. At first I had a CSS sheet for each page as well as one for the communal elements (i.e. navbar, footer, etc.) but I found that I could use the Bootstrap CSS for so much that it became cumbersome to bounce back and forth between the different CSS sheets when there was only a few items on each of them. I chose to then consolidate all of the CSS sheets into a single master sheet and I found this to be a much simpler option for my custom style elements.  
+
+One of the things that I found extremely useful while using the Bootstrap CSS is their grid system and it's responsive properties. This system takes the guess work out of what your code will look like in reality and really made it so much easier to bring my design to life.
+
+You will find the following upon exploring this website:
+
+* A navbar which includes links to each individual page, in addition my name is a link back to the home page.
+    * At page widths smaller than 768px the navbar will collapse and create a dropdown navigation rather than the links being on a horizontal display.
+    * The active page link will be highlighted in a slightly darker color.
+* A main section over a background image, the main section has a white background and takes up approximately 1/3 of the page.
+    * This main section will remain at 1/3 width of the page until page widths smaller than 400px at which point it will span the entire page (with small margins on each side).
+* A footer which remains at the bottom of the page and displays the Copyright.
+* On the About Me (index) page you will find a Bio section with a photo, the paragraph text wraps around this photo at all times.
+* On the contact page you will find a form to enter your name, email and a message for submission.
+* On the portfolio page you will find 5 portfolio images (these are placeholders for the time being since I have to portfolio images to share yet).
+    * At page widths larger than 768px you will find these photos in rows of two.
+    * At page widths 768px and smaller these images will be in rows of one.
+
+Overall this project was very enlightening and a great way to familiarize myself with the Bootstrap CSS as well as will the grid layout system.
+
+-----
 
 ## ADA Compliance
-This webpage was run through the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) to ensure compliance. There were no errors detected.
+This webpage was run through the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) to ensure compliance. The only errors detected were contrast errors which I could not correct due to the requirement of utilizing the same color scheme as the original example.
 
-![WAVE RESULTS](######)
+<img src="./assets/aboutmewave.png" alt="about me wave" style="width: 300px; height: 500px;">
 
-## What I Learned
-1. There are so many different elements to Bootstrap CSS, I don't think I have even come close to utilizing it to it's fullest potential.
+<img src="./assets/contactwave.png" alt="contact wave" style="width: 300px; height: 500px;">
 
-1. Grid layouts make designing your website immensely easier.
+<img src="./assets/portfoliowave.png" alt="portfolio wave" style="width: 300px; height: 500px;">
+
+-----
+
+## HTML Validation
+Each page of this webpage was run through the [W3C Markup Validation Service](https://validator.w3.org/) to ensure valid and correct HTML. There were no errors or issues found.
+
+<img src="./assets/aboutmeverify.png" alt="about me validation" style="width: 500px; height: 300px;">
+
+<img src="./assets/contactverify.png" alt="contact validation" style="width: 500px; height: 300px;">
+
+<img src="./assets/portfolioverify.png" alt="portfolio validation" style="width: 500px; height: 300px;">
+
+-----
 
 ## Minimum Requirements
 
@@ -62,17 +107,24 @@ This webpage was run through the [WAVE Web Accessibility Evaluation Tool](https:
 
 * Must properly utilize Bootstrap components and grid system. :heavy_check_mark:
 
+-----
+
 ## Credits
 A huge thanks to our teaching staff, especially Jonathan and Leif, they make it easier to understand the chaos.
 
+-----
 
 ## Badges
 ![badge](https://img.shields.io/github/issues-raw/aimeecesler/aimee-esler-portfolio-hw)
+
+-----
 
 ## Links
 [Repository Link](https://github.com/aimeecesler/aimee-esler-portfolio-hw)
 
 [Deployed Application](https://aimeecesler.github.io/aimee-esler-portfolio-hw/)
+
+-----
 
 ## License
 Copyright (c) [2020] [Aimee Corbin Esler]
