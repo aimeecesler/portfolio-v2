@@ -58,8 +58,8 @@ You will find the following upon exploring this website:
 * On the About Me (index) page you will find a Bio section with a photo, the paragraph text wraps around this photo at all times.
 * On the contact page you will find a form to enter your name, email and a message for submission.
 * On the portfolio page you will find 5 portfolio images (these are placeholders for the time being since I have to portfolio images to share yet).
-    * At page widths larger than 768px you will find these photos in rows of two.
-    * At page widths 768px and smaller these images will be in rows of one.
+    * At page widths 992px and larger you will find these photos in rows of two.
+    * At page widths smaller than 992px these images will be in rows of one.
 
 Overall this project was very enlightening and a great way to familiarize myself with the Bootstrap CSS as well as will the grid layout system.
 
