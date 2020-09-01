@@ -43,7 +43,7 @@ Edit using VSCode after [installation](#installation). HTML and CSS files are pr
 
 ## Creating the Website
 
-During the process of creating this website, I tried to utilize the Bootstrap CSS as much as possible, only utilizing my own CSS sheet for specific custom colors and layouts. At first I had a CSS sheet for each page as well as one for the communal elements (i.e. navbar, footer, etc.) but I found that I could use the Bootstrap CSS for so much that it became cumbersome to bounce back and forth between the different CSS sheets when there was only a few items on each of them. I chose to then consolidate all of the CSS sheets into a single master sheet and I found this to be a much simpler option for my custom style elements.  
+During the process of creating this repository, I tried to utilize the Bootstrap CSS as much as possible, only utilizing my own CSS sheet for specific custom colors and layouts. At first I had a CSS sheet for each page as well as one for the communal elements (i.e. navbar, footer, etc.) but I found that I could use the Bootstrap CSS for so much that it became cumbersome to bounce back and forth between the different CSS sheets when there was only a few items on each of them. I chose to then consolidate all of the CSS sheets into a single master sheet and I found this to be a much simpler option for my custom style elements.  
 
 One of the things that I found extremely useful while using the Bootstrap CSS is their grid system and it's responsive properties. This system takes the guess work out of what your code will look like in reality and really made it so much easier to bring my design to life.
 
@@ -68,22 +68,10 @@ Overall this project was very enlightening and a great way to familiarize myself
 ## ADA Compliance
 This webpage was run through the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) to ensure compliance. The only errors detected were contrast errors which I could not correct due to the requirement of utilizing the same color scheme as the original example.
 
-<img src="./assets/aboutmewave.png" alt="about me wave" style="width: 300px; height: 500px;">
-
-<img src="./assets/contactwave.png" alt="contact wave" style="width: 300px; height: 500px;">
-
-<img src="./assets/portfoliowave.png" alt="portfolio wave" style="width: 300px; height: 500px;">
-
 -----
 
 ## HTML Validation
 Each page of this webpage was run through the [W3C Markup Validation Service](https://validator.w3.org/) to ensure valid and correct HTML. There were no errors or issues found.
-
-<img src="./assets/aboutmeverify.png" alt="about me validation" style="width: 500px; height: 300px;">
-
-<img src="./assets/contactverify.png" alt="contact validation" style="width: 500px; height: 300px;">
-
-<img src="./assets/portfolioverify.png" alt="portfolio validation" style="width: 500px; height: 300px;">
 
 -----
 
@@ -111,6 +99,12 @@ Each page of this webpage was run through the [W3C Markup Validation Service](ht
 
 ## Credits
 A huge thanks to our teaching staff, especially Jonathan and Leif, they make it easier to understand the chaos.
+
+Reources:
+
+* [Bootstrap](https://getbootstrap.com/)
+* [w3schools](https://www.w3schools.com)
+* [Tutorial Republic - Bootstrap Grid System](https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-grid-system.php)
 
 -----
 
