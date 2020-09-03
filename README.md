@@ -29,11 +29,11 @@ Edit using VSCode after [installation](#installation). HTML and CSS files are pr
 
 #### HTML
 
-![HTML](indexHTML.png)
+![HTML](IndexHTML.PNG)
 
 #### CSS
 
-![CSS](ALLCSS.png)
+![CSS](ALLCSS.PNG)
 
 -----
 
