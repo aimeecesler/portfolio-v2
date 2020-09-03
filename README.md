@@ -29,15 +29,11 @@ Edit using VSCode after [installation](#installation). HTML and CSS files are pr
 
 #### HTML
 
-<img src="indexhtml.png" alt="index html" style="width: 400px; height: 500px;">
-
-<img src="contacthtml.png" alt="contact html" style="width: 400px; height: 500px;">
-
-<img src="portfoliohtml.png" alt="portfolio html" style="width: 400px; height: 500px;">    
+![HTML](indexHTML.png)
 
 #### CSS
 
-<img src="allcss.png" alt="all css" style="width: 400px; height: 500px;">
+![CSS](ALLCSS.png)
 
 -----
 
