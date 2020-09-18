@@ -7,7 +7,7 @@
 
 /* All Pages Formatting */
 body {
-    background-image: url("backgroundimg.jpg");
+    background-image: url("./images/backgroundimg.jpg");
     background-position: top left;
     background-repeat: repeat-x repeat-y;
 }
@@ -20,6 +20,9 @@ body {
 
 h1 {
     color: #4AAAA5;
+}
+h2 {
+    font-family: 'Sacramento', cursive;
 }
 footer {
     background-color: #666666;
