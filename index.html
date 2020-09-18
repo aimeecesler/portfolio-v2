@@ -12,13 +12,17 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <!-- name on navbar -->
-      <a class="text-white navbar-brand" id="navbar-name" href="./index.html"
+      <a class="navbar-brand" id="navbar-name" href="./index.html"
         >Aimee Esler</a
       >
       <!-- toggle button that appears at smaller window sizes -->
@@ -50,28 +54,22 @@
     </nav>
     <!-- main container -->
     <main class="container-fluid">
-      <!-- main section with white background -->
-      <div class="row">
-        <section class="col-md-8 bg-white mt-5 mb-5 ml-4 mr-4 pt-3 pb-3">
-          <!-- header within box -->
-          <div class="row">
-            <header class="col-md-12">
-              <h1>About Me</h1>
-            </header>
+      <div class="row bg-white m-5 p-5">
+        <div class="col-md-12">
+          <div class="row mb-5">
+            <div class="col-md-12">
+              <h1 class="display-4">Aimee Corbin Esler</h1>
+              <p class="lead">Atlanta, GA</p>
+            </div>
           </div>
-          <!-- horizontal line break -->
-          <hr />
-          <!-- section with photo and paragraphs -->
           <div class="row">
             <div class="col-md-12">
-              <!-- photo -->
               <img
                 class="mr-3 mb-1"
                 id="profile-pic"
                 src="./assets/aimee.JPG"
                 alt="Aimee hiking in Scotland"
               />
-              <!-- first paragraph text wrapped around photo -->
               <p>
                 My name is Aimee Esler and I am currently a student in the
                 Georgia Tech Coding Boot Camp program. I was born and raised in
@@ -103,51 +101,49 @@
                 wealth of useless animal knowledge!
               </p>
             </div>
-            <!--closing div for column designation-->
           </div>
-          <!--sub row closing-->
-          <!-- github link -->
           <div class="row">
             <div class="col-md-12">
-              <a
-                class="social-links"
-                href="https://github.com/aimeecesler"
-                target="_blank"
-                >My GitHub Page</a
-              >
+              <ul class="list-group list-group-horizontal-md">
+                <li class="text-center list-group-item flex-fill">
+                  <a
+                    class="social-links"
+                    href="https://www.linkedin.com/in/aimee-esler-3bb31288/"
+                    target="_blank"
+                    >My GitHub Page</a
+                  >
+                </li>
+                <li class="text-center list-group-item flex-fill">
+                  <a
+                    class="social-links"
+                    href="https://github.com/aimeecesler"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li class="text-center list-group-item flex-fill">
+                  <a
+                    class="social-links"
+                    href="https://www.facebook.com/aimeecesler/"
+                    target="_blank"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="text-center list-group-item flex-fill">
+                  <a
+                    class="social-links"
+                    href="https://www.instagram.com/acesler22/"
+                    target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+              </ul>
             </div>
-            <!--closing div for column designation-->
           </div>
-          <!--sub row closing-->
-          <!-- facebook link -->
-          <div class="row">
-            <div class="col-md-12">
-              <a
-                class="social-links"
-                href="https://www.facebook.com/aimeecesler/"
-                target="_blank"
-                >Facebook</a
-              >
-            </div>
-            <!--closing div for column designation-->
-          </div>
-          <!--sub row closing-->
-          <!-- instagram link -->
-          <div class="row">
-            <div class="col-md-12">
-              <a
-                class="social-links"
-                href="https://www.instagram.com/acesler22/"
-                target="_blank"
-                >Instagram</a
-              >
-            </div>
-            <!--closing div for column designation-->
-          </div>
-          <!--sub row closing-->
-        </section>
+        </div>
       </div>
-      <!--main row closing-->
+
+      <!-- main row closing -->
     </main>
     <!-- footer -->
     <footer class="text-center pt-3 pb-3">&copy; Copyright</footer>

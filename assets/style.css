@@ -7,22 +7,19 @@
 
 /* All Pages Formatting */
 body {
-    background-image: url("background.png");
+    background-image: url("backgroundimg.jpg");
     background-position: top left;
     background-repeat: repeat-x repeat-y;
 }
 #navbar-name {
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #4AAAA5;
+    font-family: 'Homemade Apple', cursive;;
     font-size: 2em;
     font-weight: 600;
+    color: #4AAAA5;
 }
 
 h1 {
-    font-family: 'Times New Roman', Times, serif;
     color: #4AAAA5;
-    font-size: 3em;
-    font-weight: 600;
 }
 footer {
     background-color: #666666;
