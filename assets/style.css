@@ -49,6 +49,9 @@ text-align: center;
     color: #4aaaa5;
     background-color: white;
 }
+.hidden {
+    visibility: hidden;
+}
 
 /* Formatting for Portfolio Page */
 .portfolio-image {
