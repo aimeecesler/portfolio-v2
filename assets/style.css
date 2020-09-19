@@ -10,7 +10,7 @@ body {
     background-repeat: repeat-x repeat-y;
 }
 h1 {
-    color: #4AAAA5;
+    color: #38807B;
 }
 h2 {
     font-family: 'Sacramento', cursive;
@@ -23,11 +23,11 @@ text-align: center;
     font-family: 'Homemade Apple', cursive;;
     font-size: 2em;
     font-weight: 600;
-    color: #4AAAA5;
+    color: #38807B;
 }
 /* Formatting for About/Index Page */
 .social-links {
-    color: #4AAAA5;
+    color: #38807B;
 }
 #profile-pic {
     float: left;
@@ -35,12 +35,12 @@ text-align: center;
 }
 /* Formatting for Contact Page */
 .btn {
-    background-color: #4aaaa5;
-    border-color: #4aaaa5;
+    background-color: #38807B;
+    border-color: #38807B;
     border-radius: 0;
 }
 .btn:hover {
-    color: #4aaaa5;
+    color: #38807B;
     background-color: white;
 }
 .hidden {
