@@ -1,8 +1,6 @@
 /* Teal color #4AAAA5 */
 /* Nav text color #979798 */
 /* Nav text darker color #737374 */
-/* Footer color #666666 */
-/* Footer text color #6B737B */
 
 
 /* All Pages Formatting */
@@ -11,13 +9,6 @@ body {
     background-position: top left;
     background-repeat: repeat-x repeat-y;
 }
-#navbar-name {
-    font-family: 'Homemade Apple', cursive;;
-    font-size: 2em;
-    font-weight: 600;
-    color: #4AAAA5;
-}
-
 h1 {
     color: #4AAAA5;
 }
@@ -28,17 +19,20 @@ footer {
 opacity: .5;
 text-align: center;
 }
-
+#navbar-name {
+    font-family: 'Homemade Apple', cursive;;
+    font-size: 2em;
+    font-weight: 600;
+    color: #4AAAA5;
+}
 /* Formatting for About/Index Page */
+.social-links {
+    color: #4AAAA5;
+}
 #profile-pic {
     float: left;
     max-width: 15em;
 }
-
-.social-links {
-    color: #4AAAA5;
-}
-
 /* Formatting for Contact Page */
 .btn {
     background-color: #4aaaa5;
@@ -54,6 +48,9 @@ text-align: center;
 }
 
 /* Formatting for Portfolio Page */
+a {
+    color: #1b7772;
+}
 .portfolio-image {
     max-width: 100%;
     display: block;
@@ -83,7 +80,9 @@ text-align: center;
   }
   .text {
     color: black;
-    font-size: 20px;
+    font-size: 1em;
+    max-width: 100%;
+    max-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -92,6 +91,8 @@ text-align: center;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  a {
-      color: #1b7772;
+  @media only screen and (max-width: 550px) {
+      .text {
+          font-size: .75em;
+      }
   }
