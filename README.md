@@ -11,7 +11,6 @@ This repository contains my portfolio site, including About Me, Contact and Port
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#Usage)
-* [My Portfolio](#my-portfolio)
 * [ADA Compliance](#ada-compliance)
 * [HTML Validation](#html-validation)
 * [Minimum Requirements](#minimum-requirements)
@@ -33,12 +32,6 @@ Edit using VSCode after [installation](#installation). HTML and CSS files are pr
 
 -----
 
-## My Portfolio
-
-
-
------
-
 ## ADA Compliance
 This webpage was run through the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) to ensure compliance.
 
@@ -53,7 +46,7 @@ Each page of this webpage was run through the [W3C Markup Validation Service](ht
 
 * [Bootstrap](https://getbootstrap.com/)
 * [w3schools](https://www.w3schools.com)
-* [jQuery]()
+* [jQuery](https://api.jquery.com/)
 
 -----
 
