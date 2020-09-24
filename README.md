@@ -53,7 +53,7 @@ Each page of this webpage was run through the [W3C Markup Validation Service](ht
 ## Links
 [Repository Link](https://github.com/aimeecesler/portfolio-v2)
 
-[Deployed Application](https://aimeecesler.github.io/portfolio-v2/)
+[Deployed Application](www.aimeecesler.com)
 
 -----
 
