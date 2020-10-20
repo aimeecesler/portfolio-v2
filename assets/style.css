@@ -28,6 +28,10 @@ footer {
 .social-links {
   color: #38807b;
 }
+.skills-list{
+  list-style: none;
+  padding-inline-start: 0px !important;
+}
 #profile-pic {
   float: left;
   max-width: 15em;
