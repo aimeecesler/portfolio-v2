@@ -13,8 +13,8 @@ This repository contains my portfolio site, including About Me, Contact and Port
 * [Usage](#Usage)
 * [ADA Compliance](#ada-compliance)
 * [HTML Validation](#html-validation)
-* [Minimum Requirements](#minimum-requirements)
-* [Credits](#credits)
+* [Resources](#resources)
+* [Contact](#contact)
 * [Links](#Links)
 * [License](#license)
 
@@ -47,6 +47,12 @@ Each page of this webpage was run through the [W3C Markup Validation Service](ht
 * [Bootstrap](https://getbootstrap.com/)
 * [w3schools](https://www.w3schools.com)
 * [jQuery](https://api.jquery.com/)
+
+-----
+
+## Contact
+Find me on LinkedIn!
+[Aimee Esler](https://www.linkedin.com/in/aimee-esler-3bb31288/)
 
 -----
 
